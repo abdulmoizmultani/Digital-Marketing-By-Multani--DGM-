@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing by Multani - Grow Your Business Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-background">
+            <canvas id="loader-particles-canvas"></canvas>
+            <div class="loader-gradient-orb loader-orb-1"></div>
+            <div class="loader-gradient-orb loader-orb-2"></div>
+            <div class="loader-gradient-orb loader-orb-3"></div>
+        </div>
+        <div class="loader-content">
+            <img src="logo.png" alt="DGM Logo" class="loader-logo-img">
+            <div class="loader-spinner"></div>
+            <p class="loader-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="logo.png" alt="DGM Logo" class="logo-image">
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="particles-canvas"></canvas>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>✨ Trusted by 500+ Brands</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Transform Your Business</span>
+                    <span class="title-line gradient-text">With Digital Excellence</span>
+                </h1>
+                <p class="hero-subtitle">
+                    At Digital Marketing by Multani, we craft data-driven strategies that drive 
+                    growth, amplify your brand, and deliver measurable results.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="1000">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="250">0</div>
+                        <div class="stat-label">Awards Won</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive digital marketing solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Social Media Marketing</h3>
+                    <p class="service-description">
+                        Boost your brand presence across all major social platforms with engaging content 
+                        and strategic campaigns.
+                    </p>
+                    <ul class="service-features">
+                        <li>Content Strategy</li>
+                        <li>Community Management</li>
+                        <li>Paid Advertising</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3 class="service-title">SEO Optimization</h3>
+                    <p class="service-description">
+                        Improve your search engine rankings and drive organic traffic to your website 
+                        with proven SEO techniques.
+                    </p>
+                    <ul class="service-features">
+                        <li>Keyword Research</li>
+                        <li>On-Page Optimization</li>
+                        <li>Link Building</li>
+                        <li>Technical SEO</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📧</div>
+                    <h3 class="service-title">Email Marketing</h3>
+                    <p class="service-description">
+                        Connect with your audience through personalized email campaigns that convert 
+                        leads into customers.
+                    </p>
+                    <ul class="service-features">
+                        <li>Campaign Design</li>
+                        <li>Automation</li>
+                        <li>A/B Testing</li>
+                        <li>Performance Analytics</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3 class="service-title">Content Marketing</h3>
+                    <p class="service-description">
+                        Create valuable, engaging content that attracts and retains your target audience 
+                        while driving conversions.
+                    </p>
+                    <ul class="service-features">
+                        <li>Blog Writing</li>
+                        <li>Video Production</li>
+                        <li>Infographics</li>
+                        <li>Content Strategy</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💰</div>
+                    <h3 class="service-title">PPC Advertising</h3>
+                    <p class="service-description">
+                        Maximize your ROI with targeted pay-per-click campaigns on Google, Facebook, 
+                        and other platforms.
+                    </p>
+                    <ul class="service-features">
+                        <li>Campaign Setup</li>
+                        <li>Bid Management</li>
+                        <li>Landing Page Optimization</li>
+                        <li>Conversion Tracking</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📈</div>
+                    <h3 class="service-title">Analytics & Reporting</h3>
+                    <p class="service-description">
+                        Make data-driven decisions with comprehensive analytics and detailed reports 
+                        on your marketing performance.
+                    </p>
+                    <ul class="service-features">
+                        <li>Performance Tracking</li>
+                        <li>Custom Dashboards</li>
+                        <li>Monthly Reports</li>
+                        <li>Insights & Recommendations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose Us?</h2>
+                    <p class="about-description">
+                        At DGM Digital Marketing by Multani, we're a team of passionate digital 
+                        marketing experts dedicated to helping businesses thrive in the digital 
+                        landscape. With years of experience and a proven track record, we combine 
+                        creativity with data-driven strategies to deliver exceptional results.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-content">
+                                <h4>Proven Results</h4>
+                                <p>Track record of delivering measurable ROI for clients</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-content">
+                                <h4>Expert Team</h4>
+                                <p>Certified professionals with deep industry expertise</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-content">
+                                <h4>Custom Strategies</h4>
+                                <p>Tailored solutions that fit your unique business goals</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-content">
+                                <h4>Transparent Reporting</h4>
+                                <p>Regular updates and detailed analytics on campaign performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="placeholder-content">
+                            <span class="placeholder-icon">🚀</span>
+                            <p>Digital Growth</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">Real results from real clients</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>E-Commerce</h3>
+                        <span class="portfolio-category">E-Commerce</span>
+                    </div>
+                    <div class="portfolio-metrics">
+                        <div class="metric">
+                            <div class="metric-value">+350%</div>
+                            <div class="metric-label">Revenue Increase</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">+200%</div>
+                            <div class="metric-label">Traffic Growth</div>
+                        </div>
+                    </div>
+                    <p class="portfolio-description">
+                        Implemented comprehensive SEO and PPC strategy resulting in significant 
+                        revenue growth and improved online visibility.
+                    </p>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>SaaS Startup</h3>
+                        <span class="portfolio-category">SaaS</span>
+                    </div>
+                    <div class="portfolio-metrics">
+                        <div class="metric">
+                            <div class="metric-value">+500%</div>
+                            <div class="metric-label">Lead Generation</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">+180%</div>
+                            <div class="metric-label">Conversion Rate</div>
+                        </div>
+                    </div>
+                    <p class="portfolio-description">
+                        Developed content marketing and email automation campaigns that dramatically 
+                        increased qualified leads and customer conversions.
+                    </p>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-header">
+                        <h3>Local Business</h3>
+                        <span class="portfolio-category">Local</span>
+                    </div>
+                    <div class="portfolio-metrics">
+                        <div class="metric">
+                            <div class="metric-value">+400%</div>
+                            <div class="metric-label">Local Visibility</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-value">+250%</div>
+                            <div class="metric-label">Store Visits</div>
+                        </div>
+                    </div>
+                    <p class="portfolio-description">
+                        Enhanced local SEO and social media presence leading to increased foot traffic 
+                        and customer engagement.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Ready to grow your business? Let's start a conversation</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p class="contact-description">
+                    Fill out the form or reach out to us directly. <Br>At DGM, we're here to help you achieve your digital marketing goals 
+                        and grow your business online.
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@digitalpro.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Marketing Street<br>New York, NY 10001</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">Facebook</a>
+                        <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="social-link" aria-label="Instagram">Instagram</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="social-media">Social Media Marketing</option>
+                            <option value="seo">SEO Optimization</option>
+                            <option value="email">Email Marketing</option>
+                            <option value="content">Content Marketing</option>
+                            <option value="ppc">PPC Advertising</option>
+                            <option value="analytics">Analytics & Reporting</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DGM Multani</h3>
+                    <p>Empowering businesses to succeed in the digital world through innovative marketing strategies. Digital Marketing by Multani.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Social Media Marketing</a></li>
+                        <li><a href="#services">SEO Optimization</a></li>
+                        <li><a href="#services">Email Marketing</a></li>
+                        <li><a href="#services">Content Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DGM Digital Marketing by Multani. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
