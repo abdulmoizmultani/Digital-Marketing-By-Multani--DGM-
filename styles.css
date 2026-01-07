@@ -1370,13 +1370,15 @@ section {
     }
     
     .hero-buttons {
-        flex-direction: column;
         width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
     }
     
     .btn {
         width: 100%;
         text-align: center;
+        font-size: 0.8rem;
     }
 
     .hero-stats {
